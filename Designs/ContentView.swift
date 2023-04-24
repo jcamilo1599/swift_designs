@@ -16,6 +16,30 @@ struct ContentView: View {
                 } label: {
                     Text("Bordes")
                 }
+                
+                NavigationLink {
+                    ImageTransformationView()
+                } label: {
+                    Text("Transformación de imagen")
+                }
+                
+                NavigationLink {
+                    RefreshView() {
+                        VStack{
+                            Rectangle()
+                                .fill(.red)
+                                .frame(height: 200)
+                            
+                            Rectangle()
+                                .fill(.yellow)
+                                .frame(height: 200)
+                        }
+                    } onRefresh: {
+                        
+                    }
+                } label: {
+                    Text("Actualizar")
+                }
             }
             .navigationTitle("Diseños")
         }
