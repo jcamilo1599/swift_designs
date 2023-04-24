@@ -38,7 +38,13 @@ struct ContentView: View {
                         
                     }
                 } label: {
-                    Text("Actualizar")
+                    Text("Actualizar página (adaptado a isla dinamica y anteriores)")
+                }
+                
+                NavigationLink {
+                    ShimmerView()
+                } label: {
+                    Text("Efecto de brillo o cargando")
                 }
             }
             .navigationTitle("Diseños")
