@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var rating: Int?
+    
     var body: some View {
         NavigationView {
             List {
@@ -45,6 +47,15 @@ struct ContentView: View {
                     ShimmerView()
                 } label: {
                     Text("Efecto de brillo o cargando")
+                }
+                
+                NavigationLink {
+                    RatingView(rating: $rating)
+                        .onChange(of: rating) { newValue in
+                            print(newValue!)
+                        }
+                } label: {
+                    Text("Calificación")
                 }
             }
             .navigationTitle("Diseños")

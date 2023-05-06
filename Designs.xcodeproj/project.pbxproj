@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D075BDB29F65BE100F458DE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D075BDA29F65BE100F458DE /* RatingView.swift */; };
 		0D3AFC0D29F64CF300F34B59 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3AFC0C29F64CF300F34B59 /* ShimmerView.swift */; };
 		0D5CA12329E3935B00572E3E /* DesignsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CA12229E3935B00572E3E /* DesignsApp.swift */; };
 		0D5CA12529E3935B00572E3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CA12429E3935B00572E3E /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D075BDA29F65BE100F458DE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		0D3AFC0C29F64CF300F34B59 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		0D5CA11F29E3935B00572E3E /* Designs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Designs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5CA12229E3935B00572E3E /* DesignsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignsApp.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				0D7496E129E3EA87009A1C61 /* ImageTransformationView.swift */,
 				0D93934029F5DC95005EE1BE /* RefreshView.swift */,
 				0D3AFC0C29F64CF300F34B59 /* ShimmerView.swift */,
+				0D075BDA29F65BE100F458DE /* RatingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				0D3AFC0D29F64CF300F34B59 /* ShimmerView.swift in Sources */,
 				0D5CA12529E3935B00572E3E /* ContentView.swift in Sources */,
+				0D075BDB29F65BE100F458DE /* RatingView.swift in Sources */,
 				0D93934129F5DC95005EE1BE /* RefreshView.swift in Sources */,
 				0D7496E229E3EA87009A1C61 /* ImageTransformationView.swift in Sources */,
 				0DBE541E29E393E600A1CC70 /* BorderView.swift in Sources */,
