@@ -15,6 +15,8 @@
 		0D5CA12A29E3935C00572E3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CA12929E3935C00572E3E /* Preview Assets.xcassets */; };
 		0D7496E229E3EA87009A1C61 /* ImageTransformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7496E129E3EA87009A1C61 /* ImageTransformationView.swift */; };
 		0D93934129F5DC95005EE1BE /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D93934029F5DC95005EE1BE /* RefreshView.swift */; };
+		0DBCD2C32A41181B00CAA058 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0DBCD2C12A41181B00CAA058 /* .gitignore */; };
+		0DBCD2C42A41181B00CAA058 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DBCD2C22A41181B00CAA058 /* README.md */; };
 		0DBE541E29E393E600A1CC70 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE541D29E393E600A1CC70 /* BorderView.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +30,8 @@
 		0D5CA12929E3935C00572E3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0D7496E129E3EA87009A1C61 /* ImageTransformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTransformationView.swift; sourceTree = "<group>"; };
 		0D93934029F5DC95005EE1BE /* RefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
+		0DBCD2C12A41181B00CAA058 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0DBCD2C22A41181B00CAA058 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0DBE541D29E393E600A1CC70 /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				0D5CA12129E3935B00572E3E /* Designs */,
+				0DBCD2C12A41181B00CAA058 /* .gitignore */,
+				0DBCD2C22A41181B00CAA058 /* README.md */,
 				0D5CA12029E3935B00572E3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5CA12A29E3935C00572E3E /* Preview Assets.xcassets in Resources */,
+				0DBCD2C32A41181B00CAA058 /* .gitignore in Resources */,
+				0DBCD2C42A41181B00CAA058 /* README.md in Resources */,
 				0D5CA12729E3935C00572E3E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
