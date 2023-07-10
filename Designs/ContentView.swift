@@ -57,6 +57,12 @@ struct ContentView: View {
                 } label: {
                     Text("Calificación")
                 }
+                
+                NavigationLink {
+                    GlassmorphismView()
+                } label: {
+                    Text("Glassmorphism")
+                }
             }
             .navigationTitle("Diseños")
         }
