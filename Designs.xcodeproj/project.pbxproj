@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0D075BDB29F65BE100F458DE /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D075BDA29F65BE100F458DE /* RatingView.swift */; };
 		0D3AFC0D29F64CF300F34B59 /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3AFC0C29F64CF300F34B59 /* ShimmerView.swift */; };
+		0D4F4EF52A785D5200C2CAF1 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D4F4EF42A785D5200C2CAF1 /* Configuration.plist */; };
+		0D518EF92A71E83E000514F8 /* FloatingButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D518EF82A71E83E000514F8 /* FloatingButtonView.swift */; };
 		0D5CA12329E3935B00572E3E /* DesignsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CA12229E3935B00572E3E /* DesignsApp.swift */; };
 		0D5CA12529E3935B00572E3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CA12429E3935B00572E3E /* ContentView.swift */; };
 		0D5CA12729E3935C00572E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CA12629E3935C00572E3E /* Assets.xcassets */; };
@@ -19,11 +21,15 @@
 		0DBCD2C42A41181B00CAA058 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0DBCD2C22A41181B00CAA058 /* README.md */; };
 		0DBE541E29E393E600A1CC70 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE541D29E393E600A1CC70 /* BorderView.swift */; };
 		0DD263B82A5BFCC9008CC6C1 /* GlassmorphismView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD263B72A5BFCC9008CC6C1 /* GlassmorphismView.swift */; };
+		0DE5316F2A89C52E0045AF1D /* HamburgerMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE5316E2A89C52E0045AF1D /* HamburgerMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D075BDA29F65BE100F458DE /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		0D3AFC0C29F64CF300F34B59 /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
+		0D4F4EF32A785CA800C2CAF1 /* ConfigRelease.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ConfigRelease.xcconfig; sourceTree = "<group>"; };
+		0D4F4EF42A785D5200C2CAF1 /* Configuration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		0D518EF82A71E83E000514F8 /* FloatingButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButtonView.swift; sourceTree = "<group>"; };
 		0D5CA11F29E3935B00572E3E /* Designs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Designs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5CA12229E3935B00572E3E /* DesignsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignsApp.swift; sourceTree = "<group>"; };
 		0D5CA12429E3935B00572E3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +41,7 @@
 		0DBCD2C22A41181B00CAA058 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0DBE541D29E393E600A1CC70 /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
 		0DD263B72A5BFCC9008CC6C1 /* GlassmorphismView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassmorphismView.swift; sourceTree = "<group>"; };
+		0DE5316E2A89C52E0045AF1D /* HamburgerMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +81,8 @@
 				0D5CA12429E3935B00572E3E /* ContentView.swift */,
 				0D5CA12629E3935C00572E3E /* Assets.xcassets */,
 				0D5CA12829E3935C00572E3E /* Preview Content */,
+				0D4F4EF32A785CA800C2CAF1 /* ConfigRelease.xcconfig */,
+				0D4F4EF42A785D5200C2CAF1 /* Configuration.plist */,
 			);
 			path = Designs;
 			sourceTree = "<group>";
@@ -95,6 +104,8 @@
 				0D3AFC0C29F64CF300F34B59 /* ShimmerView.swift */,
 				0D075BDA29F65BE100F458DE /* RatingView.swift */,
 				0DD263B72A5BFCC9008CC6C1 /* GlassmorphismView.swift */,
+				0D518EF82A71E83E000514F8 /* FloatingButtonView.swift */,
+				0DE5316E2A89C52E0045AF1D /* HamburgerMenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5CA12A29E3935C00572E3E /* Preview Assets.xcassets in Resources */,
+				0D4F4EF52A785D5200C2CAF1 /* Configuration.plist in Resources */,
 				0DBCD2C32A41181B00CAA058 /* .gitignore in Resources */,
 				0DBCD2C42A41181B00CAA058 /* README.md in Resources */,
 				0D5CA12729E3935C00572E3E /* Assets.xcassets in Resources */,
@@ -171,12 +183,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D518EF92A71E83E000514F8 /* FloatingButtonView.swift in Sources */,
 				0D3AFC0D29F64CF300F34B59 /* ShimmerView.swift in Sources */,
 				0D5CA12529E3935B00572E3E /* ContentView.swift in Sources */,
 				0D075BDB29F65BE100F458DE /* RatingView.swift in Sources */,
 				0D93934129F5DC95005EE1BE /* RefreshView.swift in Sources */,
 				0D7496E229E3EA87009A1C61 /* ImageTransformationView.swift in Sources */,
 				0DBE541E29E393E600A1CC70 /* BorderView.swift in Sources */,
+				0DE5316F2A89C52E0045AF1D /* HamburgerMenuView.swift in Sources */,
 				0DD263B82A5BFCC9008CC6C1 /* GlassmorphismView.swift in Sources */,
 				0D5CA12329E3935B00572E3E /* DesignsApp.swift in Sources */,
 			);
@@ -330,6 +344,7 @@
 		};
 		0D5CA12F29E3935C00572E3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4F4EF32A785CA800C2CAF1 /* ConfigRelease.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

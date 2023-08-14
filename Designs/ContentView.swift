@@ -63,6 +63,18 @@ struct ContentView: View {
                 } label: {
                     Text("Glassmorphism")
                 }
+                
+                NavigationLink {
+                    FloatingButtonView()
+                } label: {
+                    Text("Botón Flotante")
+                }
+                
+                NavigationLink {
+                    HamburgerMenuView()
+                } label: {
+                    Text("Animación de menú hamburguesa")
+                }
             }
             .navigationTitle("Diseños")
         }

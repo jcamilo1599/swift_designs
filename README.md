@@ -6,3 +6,5 @@
 - Efecto de brillo o cargando (shimmer)
 - Calificación
 - GlassmorphismView (efecto de cristal translúcido)
+- Botón flotante (con opciones deplegables)
+- Animación de menú hamburguesa
